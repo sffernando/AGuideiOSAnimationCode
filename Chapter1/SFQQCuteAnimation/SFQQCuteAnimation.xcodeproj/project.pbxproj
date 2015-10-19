@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AFF91011BD49B2A00ED3546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF91001BD49B2A00ED3546 /* main.m */; };
+		7AFF91041BD49B2A00ED3546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF91031BD49B2A00ED3546 /* AppDelegate.m */; };
+		7AFF91071BD49B2A00ED3546 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF91061BD49B2A00ED3546 /* ViewController.m */; };
+		7AFF910A1BD49B2A00ED3546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFF91081BD49B2A00ED3546 /* Main.storyboard */; };
+		7AFF910C1BD49B2A00ED3546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFF910B1BD49B2A00ED3546 /* Assets.xcassets */; };
+		7AFF910F1BD49B2A00ED3546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFF910D1BD49B2A00ED3546 /* LaunchScreen.storyboard */; };
+		7AFF911A1BD49B2A00ED3546 /* SFQQCuteAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF91191BD49B2A00ED3546 /* SFQQCuteAnimationTests.m */; };
+		7AFF91251BD49B2A00ED3546 /* SFQQCuteAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF91241BD49B2A00ED3546 /* SFQQCuteAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AFF91161BD49B2A00ED3546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFF90F41BD49B2A00ED3546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AFF90FB1BD49B2A00ED3546;
+			remoteInfo = SFQQCuteAnimation;
+		};
+		7AFF91211BD49B2A00ED3546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFF90F41BD49B2A00ED3546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AFF90FB1BD49B2A00ED3546;
+			remoteInfo = SFQQCuteAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AFF90FC1BD49B2A00ED3546 /* SFQQCuteAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFQQCuteAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFF91001BD49B2A00ED3546 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AFF91021BD49B2A00ED3546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AFF91031BD49B2A00ED3546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AFF91051BD49B2A00ED3546 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7AFF91061BD49B2A00ED3546 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7AFF91091BD49B2A00ED3546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AFF910B1BD49B2A00ED3546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AFF910E1BD49B2A00ED3546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AFF91101BD49B2A00ED3546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFF91151BD49B2A00ED3546 /* SFQQCuteAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFQQCuteAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFF91191BD49B2A00ED3546 /* SFQQCuteAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFQQCuteAnimationTests.m; sourceTree = "<group>"; };
+		7AFF911B1BD49B2A00ED3546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFF91201BD49B2A00ED3546 /* SFQQCuteAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFQQCuteAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFF91241BD49B2A00ED3546 /* SFQQCuteAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFQQCuteAnimationUITests.m; sourceTree = "<group>"; };
+		7AFF91261BD49B2A00ED3546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AFF90F91BD49B2A00ED3546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFF91121BD49B2A00ED3546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFF911D1BD49B2A00ED3546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AFF90F31BD49B2A00ED3546 = {
+			isa = PBXGroup;
+			children = (
+				7AFF90FE1BD49B2A00ED3546 /* SFQQCuteAnimation */,
+				7AFF91181BD49B2A00ED3546 /* SFQQCuteAnimationTests */,
+				7AFF91231BD49B2A00ED3546 /* SFQQCuteAnimationUITests */,
+				7AFF90FD1BD49B2A00ED3546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AFF90FD1BD49B2A00ED3546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF90FC1BD49B2A00ED3546 /* SFQQCuteAnimation.app */,
+				7AFF91151BD49B2A00ED3546 /* SFQQCuteAnimationTests.xctest */,
+				7AFF91201BD49B2A00ED3546 /* SFQQCuteAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFF90FE1BD49B2A00ED3546 /* SFQQCuteAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF91021BD49B2A00ED3546 /* AppDelegate.h */,
+				7AFF91031BD49B2A00ED3546 /* AppDelegate.m */,
+				7AFF91051BD49B2A00ED3546 /* ViewController.h */,
+				7AFF91061BD49B2A00ED3546 /* ViewController.m */,
+				7AFF91081BD49B2A00ED3546 /* Main.storyboard */,
+				7AFF910B1BD49B2A00ED3546 /* Assets.xcassets */,
+				7AFF910D1BD49B2A00ED3546 /* LaunchScreen.storyboard */,
+				7AFF91101BD49B2A00ED3546 /* Info.plist */,
+				7AFF90FF1BD49B2A00ED3546 /* Supporting Files */,
+			);
+			path = SFQQCuteAnimation;
+			sourceTree = "<group>";
+		};
+		7AFF90FF1BD49B2A00ED3546 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF91001BD49B2A00ED3546 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AFF91181BD49B2A00ED3546 /* SFQQCuteAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF91191BD49B2A00ED3546 /* SFQQCuteAnimationTests.m */,
+				7AFF911B1BD49B2A00ED3546 /* Info.plist */,
+			);
+			path = SFQQCuteAnimationTests;
+			sourceTree = "<group>";
+		};
+		7AFF91231BD49B2A00ED3546 /* SFQQCuteAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF91241BD49B2A00ED3546 /* SFQQCuteAnimationUITests.m */,
+				7AFF91261BD49B2A00ED3546 /* Info.plist */,
+			);
+			path = SFQQCuteAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AFF90FB1BD49B2A00ED3546 /* SFQQCuteAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFF91291BD49B2A00ED3546 /* Build configuration list for PBXNativeTarget "SFQQCuteAnimation" */;
+			buildPhases = (
+				7AFF90F81BD49B2A00ED3546 /* Sources */,
+				7AFF90F91BD49B2A00ED3546 /* Frameworks */,
+				7AFF90FA1BD49B2A00ED3546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFQQCuteAnimation;
+			productName = SFQQCuteAnimation;
+			productReference = 7AFF90FC1BD49B2A00ED3546 /* SFQQCuteAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AFF91141BD49B2A00ED3546 /* SFQQCuteAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFF912C1BD49B2A00ED3546 /* Build configuration list for PBXNativeTarget "SFQQCuteAnimationTests" */;
+			buildPhases = (
+				7AFF91111BD49B2A00ED3546 /* Sources */,
+				7AFF91121BD49B2A00ED3546 /* Frameworks */,
+				7AFF91131BD49B2A00ED3546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFF91171BD49B2A00ED3546 /* PBXTargetDependency */,
+			);
+			name = SFQQCuteAnimationTests;
+			productName = SFQQCuteAnimationTests;
+			productReference = 7AFF91151BD49B2A00ED3546 /* SFQQCuteAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AFF911F1BD49B2A00ED3546 /* SFQQCuteAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFF912F1BD49B2A00ED3546 /* Build configuration list for PBXNativeTarget "SFQQCuteAnimationUITests" */;
+			buildPhases = (
+				7AFF911C1BD49B2A00ED3546 /* Sources */,
+				7AFF911D1BD49B2A00ED3546 /* Frameworks */,
+				7AFF911E1BD49B2A00ED3546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFF91221BD49B2A00ED3546 /* PBXTargetDependency */,
+			);
+			name = SFQQCuteAnimationUITests;
+			productName = SFQQCuteAnimationUITests;
+			productReference = 7AFF91201BD49B2A00ED3546 /* SFQQCuteAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AFF90F41BD49B2A00ED3546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = etouch;
+				TargetAttributes = {
+					7AFF90FB1BD49B2A00ED3546 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					7AFF91141BD49B2A00ED3546 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 7AFF90FB1BD49B2A00ED3546;
+					};
+					7AFF911F1BD49B2A00ED3546 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 7AFF90FB1BD49B2A00ED3546;
+					};
+				};
+			};
+			buildConfigurationList = 7AFF90F71BD49B2A00ED3546 /* Build configuration list for PBXProject "SFQQCuteAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AFF90F31BD49B2A00ED3546;
+			productRefGroup = 7AFF90FD1BD49B2A00ED3546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AFF90FB1BD49B2A00ED3546 /* SFQQCuteAnimation */,
+				7AFF91141BD49B2A00ED3546 /* SFQQCuteAnimationTests */,
+				7AFF911F1BD49B2A00ED3546 /* SFQQCuteAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AFF90FA1BD49B2A00ED3546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFF910F1BD49B2A00ED3546 /* LaunchScreen.storyboard in Resources */,
+				7AFF910C1BD49B2A00ED3546 /* Assets.xcassets in Resources */,
+				7AFF910A1BD49B2A00ED3546 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFF91131BD49B2A00ED3546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFF911E1BD49B2A00ED3546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AFF90F81BD49B2A00ED3546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFF91071BD49B2A00ED3546 /* ViewController.m in Sources */,
+				7AFF91041BD49B2A00ED3546 /* AppDelegate.m in Sources */,
+				7AFF91011BD49B2A00ED3546 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFF91111BD49B2A00ED3546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFF911A1BD49B2A00ED3546 /* SFQQCuteAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFF911C1BD49B2A00ED3546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFF91251BD49B2A00ED3546 /* SFQQCuteAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AFF91171BD49B2A00ED3546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AFF90FB1BD49B2A00ED3546 /* SFQQCuteAnimation */;
+			targetProxy = 7AFF91161BD49B2A00ED3546 /* PBXContainerItemProxy */;
+		};
+		7AFF91221BD49B2A00ED3546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AFF90FB1BD49B2A00ED3546 /* SFQQCuteAnimation */;
+			targetProxy = 7AFF91211BD49B2A00ED3546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AFF91081BD49B2A00ED3546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AFF91091BD49B2A00ED3546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AFF910D1BD49B2A00ED3546 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AFF910E1BD49B2A00ED3546 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AFF91271BD49B2A00ED3546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AFF91281BD49B2A00ED3546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AFF912A1BD49B2A00ED3546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFQQCuteAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.newsmaster.SFQQCuteAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AFF912B1BD49B2A00ED3546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFQQCuteAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.newsmaster.SFQQCuteAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7AFF912D1BD49B2A00ED3546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFQQCuteAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.newsmaster.SFQQCuteAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFQQCuteAnimation.app/SFQQCuteAnimation";
+			};
+			name = Debug;
+		};
+		7AFF912E1BD49B2A00ED3546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFQQCuteAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.newsmaster.SFQQCuteAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFQQCuteAnimation.app/SFQQCuteAnimation";
+			};
+			name = Release;
+		};
+		7AFF91301BD49B2A00ED3546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFQQCuteAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.newsmaster.SFQQCuteAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFQQCuteAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7AFF91311BD49B2A00ED3546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFQQCuteAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.newsmaster.SFQQCuteAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFQQCuteAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AFF90F71BD49B2A00ED3546 /* Build configuration list for PBXProject "SFQQCuteAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFF91271BD49B2A00ED3546 /* Debug */,
+				7AFF91281BD49B2A00ED3546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFF91291BD49B2A00ED3546 /* Build configuration list for PBXNativeTarget "SFQQCuteAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFF912A1BD49B2A00ED3546 /* Debug */,
+				7AFF912B1BD49B2A00ED3546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7AFF912C1BD49B2A00ED3546 /* Build configuration list for PBXNativeTarget "SFQQCuteAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFF912D1BD49B2A00ED3546 /* Debug */,
+				7AFF912E1BD49B2A00ED3546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7AFF912F1BD49B2A00ED3546 /* Build configuration list for PBXNativeTarget "SFQQCuteAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFF91301BD49B2A00ED3546 /* Debug */,
+				7AFF91311BD49B2A00ED3546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AFF90F41BD49B2A00ED3546 /* Project object */;
+}
